@@ -1,22 +1,94 @@
+body{
+    margin: 0;
+}
+
 #menu > ul{
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: black;
     color: white;
     list-style-type: none;
+    margin:0;
     
 }
-
-nav>ul>.menu-item > a { 
+nav>ul { 
+    text-align: center;
+    padding: 25px;
+   
+}
+nav>ul>.menu-item { 
+    width:100%;
     text-decoration: none;
     color:white;
     text-align: center;
+    padding: 0;
+    margin:0;
+    display: inline;
+    margin: 1em;
+    
+}
+    
+
+nav>ul>.menu-item > a { 
+    width:100%;
+    text-decoration: none;
+    color:white;
+    padding: 0;
+    margin:0;
+    display:inline;
     
     
     
 }
-
-header h1{
-    font-size: 25px;
+#header{
+    margin: 0;
+    position: relative;
+}
+#header img{ 
+    width:100%;
     
+}
+#main-header-text{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    white-space:nowrap;
+    
+}
+#about{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#about h2{
+    text-align: center;
+}
+
+.about-content{
+    text-align: center;
+}
+address{
+    text-align: center;
+   
+}
+#contact-header{
+    text-align: center;
+    
+   
+}
+
+#contact{
+    padding-top: 35px;
+    background-color: black;
+    color:white;
+}
+
+#contact-content a{
+    
+    color:white;
 }
